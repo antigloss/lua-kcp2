@@ -1,13 +1,13 @@
 package = "kcp2"
 version = "2.0-1"
 source = {
-   url = "git@git.gametaptap.com:inapp-booster/server/lua-kcp2.git",
+   url = "git://github.com/antigloss/lua-kcp2",
    tag = "master"
 }
 description = {
    summary = "Lua bindings for KCP (Dual channel version)",
    detailed = "",
-   homepage = "https://git.gametaptap.com/inapp-booster/server/lua-kcp2",
+   homepage = "https://github.com/antigloss/lua-kcp2",
    license = "MIT"
 }
 dependencies = {
