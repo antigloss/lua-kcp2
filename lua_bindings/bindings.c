@@ -363,7 +363,11 @@ static const struct luaL_Reg l_methods[] = {
     {NULL, NULL},
 };
 
+#ifdef _MSC_VER
+__declspec(dllexport) int luaopen_kcp2(lua_State *L)
+#else
 int luaopen_kcp2(lua_State* L)
+#endif
 {
     luaL_checkversion(L);
 
